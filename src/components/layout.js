@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 import { createGlobalStyle } from "styled-components";
 import NavBar from "./globals/navbar/Navbar";
-import { styles } from "../utils";
 // import { StaticQuery, graphql } from "gatsby"
 
 // import "./layout.css";
@@ -20,8 +19,8 @@ const Layout = ({ children }) => {
 
 const GlobalStyle = createGlobalStyle`
   * {
-    marign: 0,
-    padding: 0,
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
