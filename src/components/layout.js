@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { createGlobalStyle } from "styled-components";
-import NavBar from "./globals/navbar/Navbar";
+import NavBar from "../components/globals/navbar";
+import Footer from "../components/globals/Footer";
 // import { StaticQuery, graphql } from "gatsby"
 
 // import "./layout.css";
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <NavBar />
       {children}
+      <Footer />
     </React.Fragment>
   );
 };
